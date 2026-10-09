@@ -1,0 +1,20 @@
+{
+    "name": "benzas/ranking-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Benzas\\RankingBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benjamin Zaslavsky",
+            "email": "benjamin.zaslavsky@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/dependency-injection": "^7.4",
+        "symfony/http-kernel": "^8.0"
+    }
+}

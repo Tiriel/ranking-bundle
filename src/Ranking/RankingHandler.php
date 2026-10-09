@@ -2,12 +2,9 @@
 
 namespace Benzas\RankingBundle\Ranking;
 
-use Symfony\Component\DependencyInjection\Attribute\AutowireIterator;
-
 class RankingHandler
 {
     public function __construct(
-        #[AutowireIterator('ranking.strategy')]
         private readonly iterable $strategies,
     ) {}
 
